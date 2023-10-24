@@ -1,0 +1,434 @@
+.agency{
+    width: 100%;
+    background: #fff;
+    padding-top: 40px;
+    min-height: 1000px;
+    padding-bottom: 20px;
+}
+.agency .layui-form-select dl dd.layui-this{
+    /*background: #DB3B40;*/
+    background: #2461b1;
+}
+.agency .agencySearch{
+    width: 100%;
+}
+.agency .searchBox .layui-input-block{
+    display: inline-block;
+    width: 240px;
+    margin-left: 0;
+}
+.agency .searchBox .layui-form-label{
+    width: 120px;
+}
+.agency .searchBox .layui-row .layui-input-inline{
+    width: 240px;
+}
+.agencyLabel{
+    width:98%;
+    height: 48px;
+    /*background: #DB3B40;*/
+    background: #2461b1;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.agencyLabel span{
+    display: inline-block;
+    font-size: 16px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    line-height: 48px;
+}
+.agencyLabel span:nth-of-type(1){
+    margin-left: 26px;
+    margin-right: 100px;
+}
+.agencyLabel span:nth-of-type(2){
+    margin-right: 20px;
+}
+.agencyLabel span:nth-of-type(3){
+    margin-right: 20px;
+    width: 240px;
+    text-align: center;
+}
+.agencyLabel span:nth-of-type(4){
+    margin-right: 45px;
+}
+.agencyLabel span:nth-of-type(5){
+    margin-right: 50px;
+}
+.agencyLabel span:nth-of-type(6){
+    margin-right: 35px;
+}
+.agencyLabel span:nth-of-type(7){
+    margin-right: 35px;
+}
+.agencyList{
+    width: 98%;
+    display: block;
+    margin: 0 auto;
+}
+.agencyList li{
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dcdfe6;
+}
+.agencyList li span {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: #3e464c;
+    text-align: left;
+    cursor: pointer;
+}
+.agency .agencyList li span.lineShow{
+    /*color: #8A94A6;*/
+    background: unset;
+    text-align: center;
+}
+.agencyList li span:nth-of-type(1){
+    width: 155px;
+    margin-left: 10px;
+}
+.agencyList li span:nth-of-type(2){
+    width: 158px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.agencyList li span:nth-of-type(3){
+    width: 210px!important;
+    margin-right: 38px;
+}
+.agencyList li span:nth-of-type(4){
+    width: 56px;
+    /*height: 24px;*/
+    /*background: rgba(251,86,10,0.1);*/
+    border-radius: 4px;
+    /*color: #fb560a;*/
+    line-height: 24px;
+    text-align: center;
+}
+.agencyList li span:nth-of-type(5){
+    width: 80px;
+    margin-left: 28px;
+    margin-right: 8px;
+    text-align: center;
+}
+.agencyList li span:nth-of-type(6){
+    width: 112px;
+    margin-left: 20px;
+    text-align: center;
+}
+.agencyList li span:nth-of-type(6) a{
+    /*color: #DB3B40;*/
+    color: #2461b1;
+}
+.agencyList li span:nth-of-type(7){
+    width: 96px;
+    margin-left: 15px;
+    margin-right: 50px;
+    text-align: center;
+}
+.agencyList li span:nth-of-type(8) a{
+    color: #000;
+}
+.agencyList li:hover {
+    background: rgba(251, 86, 10, 0.1);
+}
+
+.agencyContent{
+    width: 926px;
+    min-height: 930px;
+}
+.agencyContent h2{
+    /*height: 33px;*/
+    font-size: 24px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 600;
+    padding-top: 27px;
+    text-align: center;
+    color: #3e464c;
+    line-height: 33px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 18px;
+}
+.agencyContent h2>span{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 16px;
+    top: 47px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #dceaff;
+    border-radius: 5px;
+    margin: 0 auto;
+    z-index: -1;
+}
+.agencyContent .basicInformationOrganization{
+    height: 501px;
+    background: #ffffff;
+    margin-bottom: 16px;
+}
+.agencyContent .fullTimeStaffList{
+    min-height: 423px;
+    background: #ffffff;
+}
+.agencyContent .basicInformationOrganization .layui-table tr{
+    display: inline-block;
+    vertical-align: middle;
+}
+.agencyContent .basicInformationOrganization .layui-table tr:nth-of-type(2n+1){
+    width: 150px;
+    background: #f7f9fe;
+    margin-left: -1px;
+}
+.agencyContent .basicInformationOrganization .layui-table tr:nth-of-type(3){
+    background: #fff;
+}
+.agencyContent .basicInformationOrganization .layui-table tr:nth-of-type(3) th{
+    background: #f7f9fe;
+}
+.agencyContent .basicInformationOrganization .layui-table tr:nth-of-type(2n){
+    width: 280px;
+    margin-left: -1px;
+}
+.agencyContent .basicInformationOrganization .layui-table th{
+    display: block;
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: #8a94a6;
+    padding: 9px 6px;
+    margin-top: -1px;
+    height: 40px;
+}
+.agencyContent .basicInformationOrganization .layui-table td{
+    display: block;
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: #8a94a6;
+    margin-top: -1px;
+    text-align: left;
+    height: 40px;
+
+}
+.layui-table {
+    text-align: center;
+}
+.agencyInfoLabel{
+    width: 864px;
+    height: 48px;
+    background: #f7f9fe;
+    margin: 0 auto;
+}
+.agencyInfoLabel span{
+    height: 20px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 600;
+    text-align: center;
+    color: #8a94a6;
+    line-height: 20px;
+    display: inline-block;
+}
+.agencyInfoLabel span:nth-of-type(1){
+    width: 28px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+}
+.agencyInfoLabel span:nth-of-type(2){
+    width: 36px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+}
+.agencyInfoLabel span:nth-of-type(3){
+    width: 36px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+}
+.agencyInfoLabel span:nth-of-type(4){
+    width: 36px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+    line-height: 48px;
+}
+.agencyInfoLabel span:nth-of-type(5){
+    width: 36px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+    line-height: 48px;
+}
+.fullTimeStaffList ul{
+    width: 864px;
+    display: block;
+    margin: 0 auto;
+}
+.fullTimeStaffList ul li{
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+.fullTimeStaffList ul li:hover{
+    background: #fffaf5;
+}
+.fullTimeStaffList ul li span{
+    display: inline-block;
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #3e464c;
+    line-height: 50px;
+}
+.fullTimeStaffList ul li span:nth-of-type(1){
+    width: 28px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+.fullTimeStaffList ul li span:nth-of-type(2){
+    width: 40px;
+    margin-left: 68px;
+    margin-right: 38px;
+}
+.fullTimeStaffList ul li span:nth-of-type(3){
+    width: 78px;
+    margin-left: 50px;
+    margin-right: 34px;
+}
+.fullTimeStaffList ul li span:nth-of-type(4){
+    width: 122px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fullTimeStaffList ul li span:nth-of-type(5){
+    width: 141px;
+    margin-left: 6px;
+    margin-right: 15px;
+}
+.fullTimeStaffList ul li span:nth-of-type(6){
+    width: 130px;
+    margin-left: 12px;
+}
+
+/*分支机构名单*/
+.agencyContent .branchList{
+    min-height: 423px;
+    background: #ffffff;
+    margin-bottom: 16px
+}
+.branchLabel{
+    width: 864px;
+    height: 48px;
+    background: #f7f9fe;
+    margin: 0 auto;
+}
+.branchLabel span{
+    height: 20px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 600;
+    text-align: center;
+    color: #8a94a6;
+    display: inline-block;
+    line-height: 48px;
+}
+.branchLabel span:nth-of-type(1){
+    width: 28px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+}
+.branchLabel span:nth-of-type(2){
+    width: 36px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 167px;
+}
+.branchLabel span:nth-of-type(3){
+    width: 76px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 26px;
+}
+.branchLabel span:nth-of-type(4){
+    width: 60px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+    line-height: 48px;
+}
+.branchLabel span:nth-of-type(5){
+    width: 70px;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-right: 70px;
+    line-height: 48px;
+}
+.branchList ul{
+    width: 864px;
+    display: block;
+    margin: 0 auto;
+}
+.branchList #zzrymdList li{
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+.branchList ul li:hover{
+    background: #fffaf5;
+}
+.branchList #zzrymdList li span{
+    display: inline-block;
+    font-size: 12px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #3e464c;
+    line-height: 50px;
+}
+.branchList #zzrymdList li span:nth-of-type(1){
+    width: 28px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+.branchList #zzrymdList li span:nth-of-type(2){
+    width: 154px;
+    margin-left: 68px;
+    margin-right: 30px;
+}
+.branchList #zzrymdList li span:nth-of-type(3){
+    width: 154px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.branchList #zzrymdList li span:nth-of-type(4){
+    width: 122px;
+    margin-left: 10px;
+    margin-right: 14px;
+    text-align: left;
+}
+.branchList #zzrymdList li span:nth-of-type(5){
+    width: 100px;
+    margin-left: 33px;
+    margin-right: 15px;
+    text-align: left;
+}
+.branchList #zzrymdList li span:nth-of-type(6){
+    width: 130px;
+    margin-left: 12px;
+}

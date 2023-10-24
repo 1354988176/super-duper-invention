@@ -1,0 +1,101 @@
+.searchList{
+    width: 100%;
+    min-height: 400px;
+    background-color: #fff;
+}
+.searchList p{
+    font-size: 28px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 600;
+    text-align: center;
+    color: #3e464c;
+    line-height: 80px;
+}
+.searchList .searchListContent{
+    width: 90%;
+    margin:0 auto;
+    padding-top: 24px;
+}
+.searchList .searchListContent .searchListContentTitle{
+    width: 100%;
+    height: 48px;
+    /*background: #DB3B40;*/
+    background: #2461b1;
+    line-height: 48px;
+}
+.searchList .searchListContent .searchListContentTitle i{
+    font-size: 24px;
+    color: #fff;
+    margin-right: 11px;
+    margin-left: 16px;
+}
+.searchList .searchListContent .searchListContentTitle span{
+    font-size: 16px;
+    font-family: SourceHanSansCN-Regular;
+    text-align: left;
+    color: #ffffff;
+    line-height: 48px;
+    font-weight: 600;
+ }
+.searchList .searchListContent .searchListContentList{
+    display: block;
+    width: 100%;
+}
+.searchList .searchListContent .searchListContentList li{
+    width: 100%;
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid #dcdfe6;
+}
+.searchList .searchListContent .searchListContentList li:hover{
+    background: #fffaf5;
+}
+.searchList .searchListContent .searchListContentList li a{
+    display: block;
+}
+.searchList .searchListContent .searchListContentList li span{
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: #3e464c;
+}
+.searchList .searchListContent .searchListContentList li span:nth-of-type(1){
+    width: 950px;
+    margin-right: 10px;
+    margin-left: 18px;
+}
+.searchList .searchListContent .searchKey{
+    margin:0 auto;
+    height: 40px;
+    background: #f7f7f7;
+    margin-top: 16px;
+}
+.searchList .searchListContent .searchKey .searchKeyColor{
+    /*color: #DB3B40;*/
+    color: #2461b1;
+}
+.searchList .searchListContent .searchKey p{
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #3e464c;
+    line-height: 40px;
+    margin-left: 16px;
+}
+.searchList .searchListContent .noticeNoneShow{
+    background: url("../img/searchNone.png");
+    margin: 0 auto;
+    margin-top: 64px;
+    height: 400px;
+    width: 800px;
+    padding-bottom: 152px;
+}
+.searchList .searchListContent .searchListContentPage{
+    margin-top: 36px;
+    margin-bottom: 44px;
+}
